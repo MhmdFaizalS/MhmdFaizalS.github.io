@@ -79,18 +79,29 @@
     }
     .progress-bars{
         display: center;
+       max-width: 768px; 
       }
-    
+      .cont {
+        max-width: 100%; /* Set max-width to 100% to adapt to mobile view */
+        margin: 0; /* Remove margin for better spacing */
+      }
+      
+      
+      .skill-bar .skill-per {
+        position: relative;
+        
+      }
 
     .pic-text,
     .about-text {
         padding: 40px 0px;
+        text-align: center;
     }
 
     .pic-text h1,
     .about-text h2,
     .about-text h2 span {
-        font-size: 30px;
+        font-size: 50px;
         font-weight: 700;
     }
 
@@ -101,9 +112,10 @@
     }
 
     .about-text p {
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 500;
-        text-align: inherit;
+        text-align: inherit ;
+
     }
 
     .btn {
